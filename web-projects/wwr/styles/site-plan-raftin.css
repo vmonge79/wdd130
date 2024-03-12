@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Protest+Revolution&family=Rethink+Sans:ital,wght@0,400..800;1,400..800&display=swap')
+
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px; 
+}
+
+:root {
+    --primary-color:F48C06;
+    --secondary-color: E85D04;
+    --accent1-color:DC2F02;
+    --accent2-color: FAA307
+
+    --heading-font: 'Rethink Sans', sans-serif;
+    --paragraph-font: 'Instrument Seirf', serif;
+
+    --nav-background-color: ivory;
+    --nav-link-color: red;
+    --nav-hover-link-color: orange;
+    --nav-hover-backgroung-color: ivory;
+}
+
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font: var(--heading-font);
+    color:var(--primary-color);
+}
+
+header {
+    padding: 20px;
+    background-color: var(--accent1-color);
+}
+
+p {
+    padding: 25px;
+}
+
+nav {
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex;
+}
+
+nav a {
+    display:block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+}
+
+nav a:link, nav a:visited {
+    color:var(--nav-link-color);
+
+}
+
+nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-backgroung-color);
+}
