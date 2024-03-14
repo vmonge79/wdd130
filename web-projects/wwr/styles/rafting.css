@@ -6,6 +6,12 @@
     --accent1-color:DC2F02;
     --accent2-color: FAA307;
 
+/* primary-color   F48C06  amarillo-naranja intenso
+   secondary-color E85D04  naranja intenso
+   accent1-color   DC2F02  naranja-rojo intenso
+   accent2-color   FAA307  amarillo-pollo intenso*/
+
+
     --heading-font: 'Rethink Sans', sans-serif;
     --paragraph-font: 'Instrument Seirf', serif;
 
@@ -19,8 +25,9 @@ h1 {
     font-size: 20px;
     font-weight: bold; 
     text-align: center; 
-    font-family: "Protest Revolution", sans-serif;
-    color: var(--accent2-color)
+    font-family: "Rethink Sans", sans-serif;
+    color: var(--accent2-color);
+    position: absolute;
 }
 
 p {
@@ -39,4 +46,14 @@ p {
    height: auto;
    background-size: cover;
    background-position: center;
+}
+
+article {
+    position: absolute;
+    background-color: antiquewhite;
+    padding: 20px;
+}
+
+article img {
+    float:right;
 }
