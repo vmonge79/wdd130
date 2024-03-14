@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Protest+Revolution&family=Rethink+Sans:ital,wght@0,400..800;1,400..800&display=swap');
+
+:root {
+    --primary-color:F48C06;
+    --secondary-color: E85D04;
+    --accent1-color:DC2F02;
+    --accent2-color: FAA307;
+
+    --heading-font: 'Rethink Sans', sans-serif;
+    --paragraph-font: 'Instrument Seirf', serif;
+
+    --nav-background-color: ivory;
+    --nav-link-color: red;
+    --nav-hover-link-color: orange;
+    --nav-hover-backgroung-color: ivory;
+}
+
+h1 {
+    font-size: 20px;
+    font-weight: bold; 
+    text-align: center; 
+    font-family: "Protest Revolution", sans-serif;
+    color: var(--accent2-color)
+}
+
+p {
+    text-align: justify;
+    font-size: 16px;
+    font-family: "Instrument Serif", sans; 
+}
+
+.social-media-link {
+    text-decoration: none; 
+}
+
+.hero img{
+   display:block;
+   width: 100%;
+   height: auto;
+   background-size: cover;
+   background-position: center;
+}
