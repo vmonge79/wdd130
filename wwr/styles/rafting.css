@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Protest+Revolution&family=Rethink+Sans:ital,wght@0,400..800;1,400..800&display=swap');
 
 :root {
-    --primary-color:F48C06;
-    --secondary-color: E85D04;
-    --accent1-color:DC2F02;
-    --accent2-color: FAA307;
+    --primary-color:#F48C06;
+    --secondary-color: #E85D04;
+    --accent1-color:#DC2F02;
+    --accent2-color: #FAA307;
 
 /* primary-color   F48C06  amarillo-naranja intenso
    secondary-color E85D04  naranja intenso
