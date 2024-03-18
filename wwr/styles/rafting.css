@@ -13,12 +13,12 @@
 
 
     --heading-font: 'Rethink Sans', sans-serif;
-    --paragraph-font: 'Instrument Seirf', serif;
+    --paragraph-font: 'Instrument Serif', serif;
 
     --nav-background-color: ivory;
     --nav-link-color: red;
     --nav-hover-link-color: orange;
-    --nav-hover-backgroung-color: ivory;
+    --nav-hover-background-color: ivory;
 }
 
 h1 {
