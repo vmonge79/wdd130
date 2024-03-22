@@ -127,7 +127,7 @@ p:last-of-type{
 }
 
 .adventure-section{
-    grid-column: 2 / span(3);
+    grid-column: 2 / span 3;
     grid-row: 1 / 2;
 }
 
