@@ -57,3 +57,56 @@ article {
 article img {
     float:right;
 }
+
+header {
+    display:grid;
+    grid-template-columns: 1fr 4fr;
+    column-gap: 20px;
+
+}
+
+.logo {
+    width: 200px;
+    border: 10px;
+    border-radius: 10px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 2rem;
+
+}
+
+nav a{
+    color:#DC2F02;
+    text-decoration: none;
+    font-family: "Rethink Sans", sans-serif;
+}
+
+.grid-container1{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: 3;
+}
+
+.history-title{
+    grid-column: 3/4;
+    grid-row: 1/2;
+}
+
+.history-image{
+    grid-column: 3/4;
+    grid-row: 2/3;
+}
+
+p:first-of-type{
+    grid-column: 1/3;
+    grid-row: 2/3;
+}
+
+p:last-of-type{
+    grid-column: 4/6;
+    grid-row: 2/3;
+}
