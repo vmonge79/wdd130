@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 130 | HTML Form - User Poll</title>
+</head>
+<body>
+<header>
+    <h1>WDD 130 | Viviana Monge | HTML Form - User Poll</h1>
+</header>
+<main>
+<form>
+    <fieldset>
+        <legend>Contact Informartion</legend>
+            <label for="fullname"> Name and Last Name: </label> <br>
+            <input type="text" id="fullname" name="fullname" value="Full Name"><br>
+            <label for="usermail"> E-mail: </label> <br>
+            <input type="email" id="usermail" name="usermail" value="E-mail"<br>
+    </fieldset>
+    <fieldset>
+        <legend>Questions</legend>
+            <label for="browser"> What is your favorite browser?</label><br>
+            <select id="browser" name="browser">
+                <option value="safari"> Safari by Apple </option>
+                <option value="chrome"> Google Crome </option>
+                <option value="mozilla"> Mozilla Firefox </option>
+            </select>
+            <br><label for="browser"> Do you have a household a pet?</label><br>
+            <label for="petyes"> Yes, we have a pet </label> <br>
+            <input type="checkbox" id="petyes" name="petyes" value="yes"><br>
+            <label for="petno"> No, we don't have a pet </label> <br>
+            <input type="checkbox" id="petno" name="petno" value="no"><br>
+            <label for="placeslived"> List the places you have lived:</label><br>
+            <textarea id="placeslived" name="placeslived" rows= "3" placeholder="San Jose CR, Sidney Australia, Madrid España"></textarea>
+        </fieldset>
+        <button type="sumit">Submit Poll</button>
+</form>
+
+</main>
+<footer>
+    <p> ©2024 | HTML Form - User Poll Activity - Viviana Monge </p>
+</footer>
+</body>
+</html>

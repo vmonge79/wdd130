@@ -132,19 +132,21 @@ p:last-of-type{
 }
 
 .footer-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+    justify-content: space-between;
     align-items: center;
 }
 
 .footer-container footer {
-    grid-column: 1 / span 2;
     text-align: center;
 }
 
 .footer-container .sociallinks {
-    grid-column: 1 / span 2;
-    text-align: center;
+    display: flex;
+}
+
+.footer-container .sociallinks a {
+    margin-left: 10px;
 }
 
 
