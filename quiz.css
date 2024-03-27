@@ -1,0 +1,45 @@
+body {
+    font: 20px tahoma;
+    padding: 20px;
+    margin: 10px;
+    background: white;    
+}
+
+form {
+    position: relative;
+    width: 500px;
+    height: auto;
+    margin: 0 auto;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: lightgrey;
+}
+
+textarea {
+    display: block;
+    padding: 20px;
+    margin: auto;
+    width: 90%;
+    height: 90%;
+    border: 1px solid;
+    overflow: auto;
+
+}
+
+#pQ4 {
+    color:white;
+    padding: 10px;
+    width: 225px;
+    background-color: black;
+    border: solid 1px black;
+    text-align: center;
+}
+
+button {
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 15px;
+    
+}
