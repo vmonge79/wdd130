@@ -22,12 +22,15 @@
 }
 
 h1 {
-    font-size: 20px;
+    font-size: 30px;
     font-weight: bold; 
     text-align: center; 
     font-family: "Rethink Sans", sans-serif;
     color: var(--accent2-color);
     position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%)
 }
 
 h2 {
@@ -134,6 +137,7 @@ p:last-of-type{
 .footer-container {
     display: flex;
     justify-content: space-between;
+    flex-direction: column;
     align-items: center;
 }
 
@@ -141,12 +145,82 @@ p:last-of-type{
     text-align: center;
 }
 
-.footer-container .sociallinks {
+.sociallinks {
     display: flex;
 }
 
-.footer-container .sociallinks a {
+.sociallinks a {
     margin-left: 10px;
 }
 
+.sociallinks img {
+    width: 75px;
+    height: auto;
+}
 
+.footer-container  p {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.reserve-button {
+    background-color: var(--accent1-color); 
+    border: solid; 
+    color: var(--accent2-color);
+    padding: 10px 20px;
+    text-align: center; 
+    text-decoration: none; 
+    font-size: 18px; 
+    border-radius: 5px;
+    cursor: pointer; 
+    display: inline-block;
+  }
+
+  .reservar-btn:hover {
+    background-color: yellow;
+  }
+
+  .button-container {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+  }
+
+
+.trip-table {
+    width: 100%; 
+    border-collapse: collapse; 
+  }
+  
+  .trip-table th, 
+  .trip-table td {
+    padding: 8px; 
+    text-align: center; 
+    border: none;
+  }
+  
+  .trip-table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+    color:#F48C06;
+    text-align: center;
+    size: 18px;
+  }
+  
+  .trip-table tr:nth-child(even) {
+    background-color: #f2f2f2; 
+  }
+  
+  .trip-table tr:hover td:nth-child(1),
+  .trip-table tr:hover td:nth-child(2),
+  .trip-table tr:hover td:nth-child(3) {
+    background-color: #ddd; 
+  }
+  
+  .trip-table img {
+    width: 350px; 
+    height: auto; 
+    display: block; 
+    margin: 0 auto; 
+  }
