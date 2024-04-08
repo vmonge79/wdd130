@@ -179,6 +179,7 @@ figcaption {
     justify-content: space-between;
     flex-direction: column;
     align-items: center;
+    margin-top: 20px;
 }
 
 .footer-container footer {
@@ -344,7 +345,7 @@ button {
     padding: 10px;
     background-color: #007bff;
     color: #fff;
-    border: none;
+    border-top: 25px;
     border-radius: 3px;
     cursor: pointer;
     transition: background-color 0.3s ease;
@@ -394,4 +395,77 @@ button:hover {
 
 .grid-container-rafting .content h2 {
     margin-top: 0;
+}
+
+.contact p{
+    display: inline-block;
+    margin-left: 10%;
+}
+
+.contact h1 {
+    position: absolute;
+    margin-top: 25px;
+
+}
+
+.contact h2 {
+    position: absolute;
+    margin-top: 200px;
+
+}
+
+
+.contact .map {
+    text-align: center;
+}
+
+.contact .map iframe {
+    max-width: 50%;
+}
+
+.contact section figure img {
+    width: 250px;
+    height: auto;
+    margin: 25px 10px;
+}
+
+.contact section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.contact form {
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+form fieldset label {
+    font-family: "Instrument Serif", sans-serif; 
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+
+.radio-container,
+.checkbox-container {
+    display: flex;
+    align-items: center;
+}
+
+.radio-container input[type="radio"],
+.checkbox-container input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+label[for="comments"] {
+    display: block;
+    margin-bottom: 5px;
+}
+
+textarea#comments {
+    width: 100%;
+    box-sizing: border-box;
 }

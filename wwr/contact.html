@@ -18,7 +18,7 @@
             <a href="contact.html"> Contact </a>
         </nav>
     </header>
-    <main>
+    <main class="contact">
         <h1>Contact Us</h1>
         <p> 📬 Cartago, Costa Rica </p>
         <p> 📲 Phone number : +506 7070-7070 </p>
@@ -49,25 +49,31 @@
         <form>
             <fieldset>
                 <legend>Contact Information</legend>
-                    <label for="fullname"> Name and Last Name: </label> <br>
-                    <input type="text" id="fullname" name="fullname" value="Full Name"><br>
-                    <label for="usermail"> E-mail: </label> <br>
-                    <input type="email" id="usermail" name="usermail" value="E-mail"><br>
-                    <p> How can we help you? <p>
+                <label for="fullname">Name and Last Name:</label><br>
+                <input type="text" id="fullname" name="fullname" value="Full Name"><br>
+                <label for="usermail">E-mail:</label><br>
+                <input type="email" id="usermail" name="usermail" value="E-mail"><br>
+                <label>How can we help you?</label><br>
+                <div class="radio-container">
                     <input type="radio" id="general" name="purpose" value="general">
                     <label for="general">General Inquiry</label><br>
                     <input type="radio" id="reservation" name="purpose" value="reservation">
                     <label for="reservation">Reservation Question</label><br>
                     <input type="radio" id="suggestion" name="purpose" value="suggestion">
                     <label for="suggestion">Website Suggestion</label><br>
-                    <label for="comments"> Please explain </label><br><br>
-                    <textarea id="comments" name="comments" rows= "3"></textarea>
-                    <label for="subscription"> Please subscribe me to the monthly newsletter </label>
+                </div>
+                <label for="comments">Please explain</label><br><br>
+                <textarea id="comments" name="comments" rows="6"></textarea><br>
+                <div class="checkbox-container">
                     <input type="checkbox" id="subscription" name="subscription" value="subscription">
-                    <button type="submit"> Send my comments </button>  
+                    <label for="subscription">Please subscribe me to the monthly newsletter</label><br>
+                </div>
+                <button type="submit">Send my comments</button>
             </fieldset>
         </form>
+        
     </main>
+    
     <div class="footer-container">
         <div class="footer-container">
             <footer class="footer-container">
